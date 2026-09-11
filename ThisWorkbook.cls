@@ -17,7 +17,7 @@ Private Sub Workbook_Open()
 Worksheets("Data").Activate
 Cells.Clear
    ' With ActiveSheet.QueryTables.Add(Connection:= _
-         '"TEXT;C:\Company\Mile high Missoula\Accounting Current\A2NC192960191_attLog.dat", _
+         '"TEXT;C:\Company\MHM\Accounting Current\A2NC192960191_attLog.dat", _
         'Destination:=Range("$A$1"))
             With ActiveSheet.QueryTables.Add(Connection:= _
             "TEXT;" & ThisWorkbook.Path & "\A2NC192960191_attLog.dat", _
